@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 40vh;
+}
+.sweegy{
+    width: 30px;
+    border-radius: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+.item_logo{
+    width: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    box-shadow: 0 4px 10px rgba(234, 231, 231, 0.916);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 100px;
+}
+.navbar ul li div a {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navbar ul li div a:hover {
+    color: rgb(255, 68, 0);
+}
+header div a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+header div a:hover{
+    color: rgb(255, 68, 0);
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    font-weight:bolder;
+    color: rgba(79, 78, 78, 0.952);
+    
+}
+footer{
+    background: #d4d6d64c;
+}
+.foot1 img{
+    width: 150px;
+    margin: 15px;
+}
+.foot2_1 img{
+    width: 35px;
+    border-radius: 5px;
+}
+.foot2_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(53, 51, 51);
+    position: relative;
+    bottom: 90px;
+}
+.foot211{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: orangered;
+    margin-bottom: 10px;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px 20px;
+
+}
+.foot2 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.foot2 li {
+    list-style-type: none;
+    padding: 7px;
+}
+.foot2 li a{
+    text-decoration: none;
+    color: rgb(130, 122, 122);
+    font-size: 12px;
+}
+.foot2_3{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.foot2_5{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.footsl2{
+    display: flex;
+    gap: 7px;
+}
+.footsl2 img {
+    width: 10px;
+}
